@@ -9,7 +9,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 
-df = pd.read_csv('C:\Python Projects\AirQualityUCI(1).csv' ,sep=';')
+df = pd.read_csv('https://student-datasets-bucket.s3.ap-south-1.amazonaws.com/whitehat-ds-datasets/air-quality/AirQualityUCI.csv' ,sep=';')
 
 df = df.drop(columns=['Unnamed: 15', 'Unnamed: 16'], axis=1) 
 
